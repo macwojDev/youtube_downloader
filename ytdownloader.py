@@ -36,8 +36,8 @@ title = screen.title("Youtube Downloader")
 canvas = Canvas(screen, width=500, height=600)
 canvas.pack()
 
-# logo yt, nie działała mi ścieżka bezpośrednia do zdjęcia, kurwa
-logo = PhotoImage(file="C:\\Users\\XPS 9365\\Documents\\pythonVsCode\\yt_downloader\\ytl.png")
+# logo yt, nie działała mi ścieżka bezpośrednia do zdjęcia
+logo = PhotoImage(file="ytl.png")
 
 # resize, im wieksze argumenty tym mniejszy obrazek
 logo = logo.subsample(5,5)
